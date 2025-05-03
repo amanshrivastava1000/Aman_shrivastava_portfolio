@@ -159,7 +159,7 @@ export default function Home() {
                   <span>
                   <a
                     id="resume-link-2"
-                    // href={Resume}
+                    href="https://drive.google.com/file/d/1pmyHuyBfUAFTWPm4y1g8HpnZbp6zejMx/view?usp=drivesdk"
                     download="Harshita-Katara-Resume.pdf"
                     style={{
                       textDecoration: "none",
@@ -180,7 +180,7 @@ export default function Home() {
                   transform: "scale(1.06)",
                 }}
                 id="contact-github"
-                href="https://github.com/Harshitakatara34"
+                href="https://github.com/suyashismm"
                 target="_blank"
               >
                 <svg
@@ -197,7 +197,7 @@ export default function Home() {
               <Link
                 // m="5px"
                 id="contact-linkedin"
-                href="https://www.linkedin.com/in/harshita-katara-09904b246"
+                href="https://www.linkedin.com/in/suyashismm/"
                 target="_blank"
                 _hover={{
                   animation: "4s ease infinite",
