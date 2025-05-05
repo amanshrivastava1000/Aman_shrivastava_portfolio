@@ -61,7 +61,7 @@ const [activeTab,setActiveTab]=useState("")
         width={"94%"}
       >
         <Box w={{ base: "50%", sm: "100%" }} fontSize={{ lg: "20px", base: "16px" }} >
-          <Text as='em'>{"<Suyash Rajput/>"}</Text>
+          <Text as='em'>{"<Aman Shrivastava/>"}</Text>
         </Box>
 
         {/* Desktop Menu */}

@@ -19,7 +19,7 @@ import {
 } from "@chakra-ui/react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import photo from "../Image/Harshita_katara_img.png"
+import photo from "../Image/aman_image.png"
 import { motion } from 'framer-motion';
 console.log(photo)
 const BlogTags = (props) => {
@@ -134,7 +134,7 @@ const About = () => {
 
 
             <Text fontSize="16px" lineHeight="tall" color={useColorModeValue("gray.700", "gray.300")}>
-              Hello! My name is Suyash Rajput, and I am a skilled full stack web developer with a expertise in Mern Stack. My efficiency spans both front-end and back-end development, allowing me to build seamless user-friendly web applications from the ground up and to tackle complex development challenges. I am passionate about creating innovative solutions that enhance user experiences and drive business success. With a commitment to continuous learning and a strong foundation in software development, I am excited to contribute to dynamic projects and collaborate with forward-thinking teams.
+              Hello! My name is Aman Shrivastava, and I am a skilled frontend web developer with a expertise in ReactJs and Redux. My efficiency spans both front-end and back-end development, allowing me to build seamless user-friendly web applications from the ground up and to tackle complex development challenges. I am passionate about creating innovative solutions that enhance user experiences and drive business success. With a commitment to continuous learning and a strong foundation in software development, I am excited to contribute to dynamic projects and collaborate with forward-thinking teams.
             </Text>
 
 

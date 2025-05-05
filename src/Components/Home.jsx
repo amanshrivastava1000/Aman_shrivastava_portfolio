@@ -91,7 +91,7 @@ export default function Home() {
               bgClip="text"
               bgGradient="linear(to-l, #81e6d9, #28628b)"
             >
-              <Heading id="user-detail-name">Suyash Rajput</Heading>
+              <Heading id="user-detail-name">Aman Shrivastava</Heading>
             </Box>
             <Heading  id="user-detail-name" display="inline-block" fontSize={{ base: "40px", md: "38px" }}   color={useColorModeValue("black", "white")}>
               <Typewriter
@@ -180,7 +180,7 @@ export default function Home() {
                   transform: "scale(1.06)",
                 }}
                 id="contact-github"
-                href="https://github.com/suyashismm"
+                href="https://github.com/amanshrivastava1000"
                 target="_blank"
               >
                 <svg

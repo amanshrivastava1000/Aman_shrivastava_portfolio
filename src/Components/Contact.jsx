@@ -223,7 +223,7 @@ const Contact = () => {
                 size="lg"
               />
             </a>
-            <a href="https://github.com/harshitakatara34" target="_blank" rel="noreferrer">
+            <a href="https://github.com/amanshrivastava1000" target="_blank" rel="noreferrer">
               <IconButton
                 icon={<FaGithub size={24} />}
                 aria-label="GitHub"
