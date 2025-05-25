@@ -1,12 +1,4 @@
-import {
-  Badge,
-  Box,
-  Button,
-  Code,
-  Flex,
-  Image,
-  Link,
-  Text,
+import { Badge, Box, Button, Code, Flex, Image, Link, Text,
 } from "@chakra-ui/react";
 import { BiLinkExternal } from "react-icons/bi";
 import { BsGithub } from "react-icons/bs";
@@ -14,21 +6,24 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
 function HelperProject({ image, title, techStack, desc, github, deploy }) {
-    useEffect(() => {
-      // Initialize AOS
-      AOS.init({
-        duration: 800,
-        once: false, // Whether animation should happen only once
-        easing: 'ease-in-out',
-      });
-  
-      // Refresh AOS after components are mounted
-      const timer = setTimeout(() => {
-        AOS.refresh();
-      }, 1000);
-  
-      return () => clearTimeout(timer);
-    }, []);
+  useEffect(() => {
+    // Initialize AOS
+    AOS.init({
+      duration: 800,
+      once: false, // Whether animation should happen only once
+      easing: 'ease-in-out',
+    });
+
+    // Refresh AOS after components are mounted
+    const timer = setTimeout(() => {
+      AOS.refresh();
+    }, 1000);
+
+    return () => clearTimeout(timer);
+  }, []);
+
+
+
   return (
     <Box
       className="project-card"
@@ -38,7 +33,7 @@ function HelperProject({ image, title, techStack, desc, github, deploy }) {
       borderWidth="1px"
       borderRadius="lg"
       overflow="hidden"
-     mt="5rem"
+      mt="5rem"
       display="flex"
       flexDirection="column"
       justifyContent="space-between"
@@ -83,7 +78,7 @@ function HelperProject({ image, title, techStack, desc, github, deploy }) {
 
       <Flex justifyContent="space-between" p={4}>
         <Link href={github} isExternal>
-          <Button size="sm" colorScheme="teal" leftIcon={<BsGithub />}>
+          <Button size="sm"  isDisabled={github === "https://github.com/spade.suhora.com"}  colorScheme="teal" leftIcon={<BsGithub />}>
             GitHub
           </Button>
         </Link>

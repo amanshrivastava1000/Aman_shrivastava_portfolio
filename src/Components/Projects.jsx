@@ -1,17 +1,18 @@
 import { Box, Heading, SimpleGrid } from "@chakra-ui/react";
 import React from "react";
 import HelperProject from "./helper";
-import img1 from "../Image/img1.png";
-import img2 from "../Image/img2.png";
+// import img1 from "../Image/img1.png";
+// import img2 from "../Image/img2.png";
+import spadeImage from "../Image/spade-image.PNG";
+import taskMangement from "../Image/task-management.PNG";
 import img3 from "../Image/img3.png";
 import img4 from "../Image/img4.png";
-console.log(img1);
 
 const Projects = () => {
   return (
-    <Box id="projects" textAlign={"center"} mt="6rem"  >
+    <Box id="projects" textAlign={"center"} mt="6rem">
       <Heading>Projects</Heading>
-      <SimpleGrid 
+      <SimpleGrid
         justifyContent="center"
         textAlign={"center"}
         m={"auto"}
@@ -32,38 +33,36 @@ const Projects = () => {
 
 let data = [
   {
-    image:`${img1}`,
-    title: "Tackle&Trail (Clone-Of-Basspro)",
-    desc: "Discover Tackle&Trail, your ultimate source for premium fishing, hunting, boating, and outdoor sporting goods. We proudly offer a comprehensive selection of top-quality equipment and gear, ensuring that outdoor enthusiasts of all kinds find everything they need to embark on unforgettable adventures.",
-    techStack: ["HTML", "CSS", "JavaScript","React","Redux","Chakra-UI"],
-    github: "https://github.com/Harshitakatara34/auspicious-sea-8816",
-    deploy: "https://tackle-and-trail.netlify.app/",
+    image: `${spadeImage}`,
+    title: "Spade",
+    desc: "Spade is an advanced satellite imagery discovery and ordering platform that allows users to access both archived and tasking-based satellite data. Through this platform, users can request high-resolution imagery from multiple trusted providers including ICEYE, BlackSky, Umbra, and Satellogic. Spade simplifies the satellite data acquisition process by offering a seamless interface for selecting areas of interest and viewing upcoming satellite opportunities—indicating when a satellite will be available over a given latitude and longitude. This powerful tool is designed for users who need timely and precise geospatial data for various applications, from environmental monitoring to defense and infrastructure planning.",
+    techStack: ["HTML", "CSS", "JavaScript", "React", "Redux", "Chakra-UI"],
+    github: "https://github.com/spade.suhora.com",
+    deploy: "https://spade.suhora.com/",
   },
   {
-    image:`${img2}`,
-    desc: "Jewel Lane, a Caratlane-inspired e-commerce destination, is your go-to for exquisite gold and diamond jewellery. Our extensive collection includes a stunning  rings,  earrings, bangles, and timeless bracelets, all meticulously crafted to reflect your unique style and grace.",
-    title: "JewelLane (Clone-Of-Caratlane)",
-    techStack: ["HTML", "CSS", "JavaScript","React","Redux","Chakra-UI","Node.js","Express.js","Mongoose"],
-    github: "https://github.com/Harshitakatara34/pointless-belief-3937",
-    deploy: "https://jewellane.vercel.app/",
+    image: `${taskMangement}`,
+    desc: "The Task Management app is a productivity tool designed to help users efficiently organize and track their daily activities. Users can create tasks categorized by priority levels—high, medium, and low—and update their status as either pending or completed. The app also includes powerful editing capabilities, allowing tasks to be updated at any time. A dedicated dashboard provides a visual overview of task progress, showing real-time counts of completed and pending tasks. Additionally, users can sort tasks based on priority—either from high to low or low to high—making it easier to focus on what matters most",
+    techStack: ["HTML", "CSS", "JavaScript", "React", "Redux", "Chakra-UI"],
+    github: "https://github.com/amanshrivastava1000/Task-management-app",
+    deploy: "https://the-task-management.netlify.app/",
   },
   {
-    image:`${img3}`,
+    image: `${img3}`,
     desc: "Explore our Expedia-inspired e-commerce platform, where you can effortlessly book accommodations at a wide range of hotels and access enticing vacation packages. Plan your dream getaway with ease and embark on unforgettable journeys, all from the comfort of your screen.",
     title: "Bagpacker (Clone-Of-Expedia)",
     techStack: ["HTML", "CSS", "JavaScript"],
-    github: "https://github.com/Harshitakatara34/ragged-tank-492.git",
+    // github: "https://github.com/Harshitakatara34/ragged-tank-492.git",
     deploy: "https://golden-sorbet-745819.netlify.app/",
   },
   {
-    image:`${img4}`,
+    image: `${img4}`,
     title: "Chicken (Clone-Of-Licious)",
     desc: "Chicken, your premier online marketplace for sourcing top-quality poultry and fish products at the most competitive prices. Our diverse range of offerings ensures that you can place orders conveniently and enjoy doorstep delivery of the freshest and finest options for your culinary delights.",
     techStack: ["HTML", "CSS", "JavaScript"],
-    github: "https://github.com/Harshitakatara34/defective-impulse-1904.git",
+    // github: "https://github.com/Harshitakatara34/defective-impulse-1904.git",
     deploy: "https://superb-haupia-a7c7f2.netlify.app/",
   },
-
-  ];
+];
 
 export default Projects;

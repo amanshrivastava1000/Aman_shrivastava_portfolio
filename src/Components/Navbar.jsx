@@ -1,24 +1,15 @@
 import { React, useEffect, useState } from "react";
-import {
-  Box,
-  Flex,
-  Link,
-  Button,
-  useDisclosure,
-  useColorModeValue,
-  useColorMode,
-  Text,
+import { Box, Flex, Link, Button, useDisclosure, useColorModeValue, useColorMode, Text,
 } from "@chakra-ui/react";
 import { MoonIcon, SunIcon } from "@chakra-ui/icons";
 import { BiDownload } from "react-icons/bi";
 import DrawerExample from "./SideBar";
-// import Resume from "./Harshita-Katara-Resume.pdf";
 
 const navItems = [
   { label: "Home", id: "home" },
   { label: "About", id: "about" },
   { label: "Skills", id: "skills" },
-  { label: "Experience", id: "experience" }, // Experience shares same section as Skills
+  { label: "Experience", id: "experience" }, 
   { label: "Projects", id: "projects" },
   { label: "Contact", id: "contact" },
 ];
@@ -26,7 +17,8 @@ const navItems = [
 export default function Navbar() {
   const { colorMode, toggleColorMode } = useColorMode();
   const { isOpen, onOpen, onClose } = useDisclosure();
-const [activeTab,setActiveTab]=useState("")
+  const [activeTab, setActiveTab] = useState("");
+
   useEffect(() => {
     toggleColorMode("dark");
   }, []);
@@ -40,7 +32,9 @@ const [activeTab,setActiveTab]=useState("")
   };
 
   function handleResume() {
-    return window.open("https://drive.google.com/file/d/1pmyHuyBfUAFTWPm4y1g8HpnZbp6zejMx/view?usp=drivesdk");
+    return window.open(
+      "https://drive.google.com/file/d/1pmyHuyBfUAFTWPm4y1g8HpnZbp6zejMx/view?usp=drivesdk"
+    );
   }
 
   return (
@@ -60,8 +54,11 @@ const [activeTab,setActiveTab]=useState("")
         m="auto"
         width={"94%"}
       >
-        <Box w={{ base: "50%", sm: "100%" }} fontSize={{ lg: "20px", base: "16px" }} >
-          <Text as='em'>{"<Aman Shrivastava/>"}</Text>
+        <Box
+          w={{ base: "50%", sm: "100%" }}
+          fontSize={{ lg: "20px", base: "16px" }}
+        >
+          <Text as="b">{"Aman Shrivastava"}</Text>
         </Box>
 
         {/* Desktop Menu */}
@@ -75,7 +72,6 @@ const [activeTab,setActiveTab]=useState("")
             id="nav-menu"
             w="100%"
             gap="0.6rem"
-            // border="2px solid red"
             justifyContent={"space-between"}
             direction={"row"}
             fontSize="16px"
@@ -90,36 +86,31 @@ const [activeTab,setActiveTab]=useState("")
                 fontSize="12px"
                 size="sm"
               >
-                <Link className={`nav-link ${item.id.toLowerCase()}`}>{item.label}</Link>
+                <Link className={`nav-link ${item.id.toLowerCase()}`}>
+                  {item.label}
+                </Link>
               </Button>
             ))}
 
             <Button
               id="resume-button-1"
               className="animatedButton"
-         
-        size="sm"
+              size="sm"
               variant="solid"
-             
               onClick={handleResume}
             >
               <span>
-              <a
-                id="resume-link-1"
-                // href={Resume}
-                download="Harshita-katara-Resume.pdf"
-                style={{ textDecoration: "none" }}
-              >
-                Resume
-              </a>
+                <a
+                  id="resume-link-1"
+                  download="Aman-shrivastava.pdf"
+                  style={{ textDecoration: "none" }}
+                >
+                  Resume
+                </a>
               </span>
-             
             </Button>
-            <Button onClick={toggleColorMode} size="sm" >
-              <span>
-              {colorMode === "light" ? <MoonIcon /> : <SunIcon />}
-              </span>
-             
+            <Button onClick={toggleColorMode} size="sm">
+              <span>{colorMode === "light" ? <MoonIcon /> : <SunIcon />}</span>
             </Button>
           </Flex>
         </Flex>

@@ -1,27 +1,12 @@
 import React, { useEffect } from "react";
-import {
-  Box,
-  Heading,
-  Link,
-  Image,
-  Text,
-  Divider,
-  HStack,
-  Tag,
-  Wrap,
-  WrapItem,
-  SpaceProps,
-  useColorModeValue,
-  Container,
-  VStack,
-  Flex,
-  Button,
+import { Box, Heading, Link, Image, Text, Divider, HStack, Tag, Wrap, WrapItem, SpaceProps, useColorModeValue, Container, VStack, Flex, Button,
 } from "@chakra-ui/react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import photo from "../Image/aman_image.png"
 import { motion } from 'framer-motion';
-console.log(photo)
+
+
 const BlogTags = (props) => {
   return (
     <HStack spacing={2} marginTop={props.marginTop}>
@@ -133,8 +118,8 @@ const About = () => {
           <VStack>
 
 
-            <Text fontSize="16px" lineHeight="tall" color={useColorModeValue("gray.700", "gray.300")}>
-              Hello! My name is Aman Shrivastava, and I am a skilled frontend web developer with a expertise in ReactJs and Redux. My efficiency spans both front-end and back-end development, allowing me to build seamless user-friendly web applications from the ground up and to tackle complex development challenges. I am passionate about creating innovative solutions that enhance user experiences and drive business success. With a commitment to continuous learning and a strong foundation in software development, I am excited to contribute to dynamic projects and collaborate with forward-thinking teams.
+            <Text fontSize="16px"  lineHeight="tall" color={useColorModeValue("gray.700", "gray.300")}>
+            I am a Frontend Developer with 2 years of hands-on experience, specializing in building modern web and mobile applications. My core expertise lies in React.js and React Native, where I focus on creating responsive, user-friendly interfaces. I work extensively with JavaScript and TypeScript, and have strong experience in GIS-related technologies including Leaflet and Mapbox. I enjoy building interactive mapping solutions and data-driven applications that deliver both performance and usability. I'm passionate about clean code, UI/UX best practices, and continuously learning new tools and frameworks. Whether it's optimizing performance or integrating complex map functionalities, I thrive on turning ideas into seamless user experiences.
             </Text>
 
 

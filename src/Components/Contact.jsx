@@ -190,7 +190,7 @@ const Contact = () => {
             align="center" 
             flexWrap="wrap"
           >
-            <a href="tel:7817032067" target="_blank" rel="noreferrer">
+            <a href="tel:8447374377" target="_blank" rel="noreferrer">
               <IconButton
                 icon={<HiOutlinePhone size={24} />}
                 aria-label="Phone"
@@ -201,7 +201,7 @@ const Contact = () => {
                 size="lg"
               />
             </a>
-            <a href="mailto:khushikatara041@gmail.com" target="_blank" rel="noreferrer">
+            <a href="mailto:amanshrivastav91pp@gmail.com" target="_blank" rel="noreferrer">
               <IconButton
                 icon={<HiOutlineMail size={24} />}
                 aria-label="Mail"
@@ -212,7 +212,7 @@ const Contact = () => {
                 size="lg"
               />
             </a>
-            <a href="https://www.linkedin.com/in/harshita-katara-09904b246/" target="_blank" rel="noreferrer">
+            <a href="https://www.linkedin.com/in/aman-shrivastava-99b046231" target="_blank" rel="noreferrer">
               <IconButton
                 icon={<FaLinkedin size={24} />}
                 aria-label="LinkedIn"
@@ -238,7 +238,7 @@ const Contact = () => {
         </Box>
 
         <Text mt={10} fontSize="sm" color="gray.400">
-          © {new Date().getFullYear()} Harshita Katara. All rights reserved.
+          © {new Date().getFullYear()} Aman Shrivastava. All rights reserved.
         </Text>
       </Box>
     </Box>

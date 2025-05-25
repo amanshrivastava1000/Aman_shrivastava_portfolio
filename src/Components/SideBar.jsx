@@ -16,7 +16,6 @@ import {
   useColorMode,
 } from "@chakra-ui/react";
 
-// import Resume from "./Harshita-Katara-Resume.pdf";
 
 const navTabs = [
   { label: "Home", id: "home", className: "nav-link home" },
@@ -68,7 +67,7 @@ export default function DrawerExample({ handleClickScroll, handleResume,activeTa
                 <span>
                   <a
                     // href={Resume}
-                    download="Harshita-katara-Resume.pdf"
+                    download="Aman-shrivastava-Resume.pdf"
                     style={{ textDecoration: "none", color: "inherit" }}
                   >
                     Resume
