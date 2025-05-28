@@ -52,4 +52,4 @@ I am a frontend developer with over 2 years of experience, primarily working wit
 
 ## 📬 Contact
 
-Feel free to reach out on [LinkedIn](https://www.linkedin.com/in/amanshrivastava1000/) or fork this repo and build your own!
+Feel free to reach out on [LinkedIn](https://www.linkedin.com/in/aman-shrivastava-99b046231/) or fork this repo and build your own!
