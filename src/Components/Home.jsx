@@ -94,7 +94,7 @@ export default function Home() {
               <Typewriter
                 options={{
                   strings: [
-                    " Passionate Full Stack Developer",
+                    " Passionate Frontend Developer",
                     " Problem Solver",
                     "Tech Enthusiast",
                     "Coding Freak 🔥",
@@ -128,7 +128,7 @@ export default function Home() {
                   <span>
                     <a
                       id="resume-link-2"
-                      href="https://drive.google.com/file/d/1pmyHuyBfUAFTWPm4y1g8HpnZbp6zejMx/view?usp=drivesdk"
+                      href="https://drive.google.com/file/d/1sZvYAa07Asulgct75MCxVVZwRpB8VehF/view"
                       download="Aman-shrivastava-Resume.pdf"
                       style={{
                         textDecoration: "none",

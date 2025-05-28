@@ -33,7 +33,7 @@ export default function Navbar() {
 
   function handleResume() {
     return window.open(
-      "https://drive.google.com/file/d/1pmyHuyBfUAFTWPm4y1g8HpnZbp6zejMx/view?usp=drivesdk"
+      "https://drive.google.com/file/d/1sZvYAa07Asulgct75MCxVVZwRpB8VehF/view"
     );
   }
 

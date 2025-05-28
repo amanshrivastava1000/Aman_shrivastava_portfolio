@@ -1,4 +1,5 @@
-import { Badge, Box, Button, Code, Flex, Image, Link, Text,
+import {
+  Badge, Box, Button, Code, Flex, Image, Link, Text,
 } from "@chakra-ui/react";
 import { BiLinkExternal } from "react-icons/bi";
 import { BsGithub } from "react-icons/bs";
@@ -78,12 +79,12 @@ function HelperProject({ image, title, techStack, desc, github, deploy }) {
 
       <Flex justifyContent="space-between" p={4}>
         <Link href={github} isExternal>
-          <Button size="sm"  isDisabled={github === "https://github.com/spade.suhora.com"}  colorScheme="teal" leftIcon={<BsGithub />}>
+          <Button size="sm" isDisabled={github === ""} colorScheme="teal" leftIcon={<BsGithub />}>
             GitHub
           </Button>
         </Link>
         <Link href={deploy} isExternal>
-          <Button size="sm" colorScheme="teal" variant="outline" leftIcon={<BiLinkExternal />}>
+          <Button size="sm" isDisabled={deploy === ""} colorScheme="teal" variant="outline" leftIcon={<BiLinkExternal />}>
             Live
           </Button>
         </Link>
