@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# Aman Shrivastava Portfolio 🚀
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my personal developer portfolio! This project showcases my skills, projects, and experience as a frontend developer.
 
-## Available Scripts
+## 🔥 About Me
 
-In the project directory, you can run:
+I am a frontend developer with over 2 years of experience, primarily working with technologies like React.js, React Native, JavaScript, TypeScript, GIS, Leaflet, and Mapbox. I am passionate about building interactive, user-friendly web and mobile applications that solve real-world problems.
 
-### `npm start`
+## 💼 Projects
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 🛰 Spade - Satellite Imagery Discovery Platform
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- A web platform that allows users to order satellite imagery — both archived and tasking.
+- Integrated with providers like ICEYE, BlackSky, Umbra, and Satellogic.
+- Features include real-time satellite pass opportunities, high-res data ordering, and geospatial filtering using KML, GeoJSON, and Shapefiles.
 
-### `npm test`
+### ✅ Task Management App
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Create and manage tasks by priority: High, Medium, and Low.
+- Mark tasks as Pending or Completed.
+- Edit tasks and view dashboard insights sorted by status and priority.
 
-### `npm run build`
+### 📱 Pixel Wallpaper App
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- A mobile app that allows users to search and download high-quality wallpapers using the Pixabay API.
+- Users can apply filters to find images by categories or tags.
+- Downloaded images are saved directly into the device's gallery for easy access and usage.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 🚗 DG Car Studio
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- A car service platform focused on car sales, denting, and painting services.
+- Users can choose car models and add damaged or required service panels for quotes.
+- Includes a contact system to connect with the service team for further assistance and bookings.
 
-### `npm run eject`
+## 📸 Screenshots
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![Screenshot 1](./src/Image/spade-image.PNG)
+![Screenshot 2](./src//Image/task-management-2.PNG)
+![Screenshot 1](./src/Image/pixel-app.PNG)
+![Screenshot 1](./src/Image/dg-studio.PNG)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📦 Tech Stack
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- React.js
+- React Native
+- TypeScript
+- JavaScript
+- Leaflet, Mapbox
+- Chakra UI
+- Redux Toolkit
+- Pixabay API
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 📬 Contact
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to reach out on [LinkedIn](https://www.linkedin.com/in/amanshrivastava1000/) or fork this repo and build your own!
