@@ -22,7 +22,8 @@ function App() {
       <ExperienceTimeline id="experience" />
       <Projects id="projects" />
       <Contact id="contact" />
-    </Box>
+
+</Box>
   );
 }
 
