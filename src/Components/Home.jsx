@@ -16,8 +16,6 @@ import {
 } from "@chakra-ui/react";
 import { TbPhone } from "react-icons/tb";
 import { MdOutlineMailOutline } from "react-icons/md";
-// import { TbPhone } from "react-icons/tb";
-// import { MdOutlineMailOutline } from "react-icons/md";
 import Typewriter from "typewriter-effect";
 import {
   IoAnalyticsSharp,
@@ -128,7 +126,7 @@ export default function Home() {
                   <span>
                     <a
                       id="resume-link-2"
-                      href="https://drive.google.com/file/d/1sZvYAa07Asulgct75MCxVVZwRpB8VehF/view"
+                      href="https://drive.google.com/file/d/1aBlb_3Xc2cOJ1q9KFgGdVJxIteTrYQhY/view"
                       download="Aman-shrivastava-Resume.pdf"
                       style={{
                         textDecoration: "none",

@@ -33,10 +33,10 @@ export default function Navbar() {
 
   function handleResume() {
     return window.open(
-      "https://drive.google.com/file/d/1sZvYAa07Asulgct75MCxVVZwRpB8VehF/view"
+      "https://drive.google.com/file/d/1aBlb_3Xc2cOJ1q9KFgGdVJxIteTrYQhY/view"
     );
   }
-
+  
   return (
     <Box
       as="header"

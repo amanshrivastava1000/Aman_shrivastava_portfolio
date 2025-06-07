@@ -14,7 +14,7 @@ import ExperienceTimeline from "./Components/Experience";
 
 function App() {
   return (
-    <Box style={{ marginTop: "0px" }}>
+    <Box style={{ marginTop: "0px" }} overflowX="hidden">
       <Navbar id="nav-menu" />
       <Home id="home" />
       <About id="about" class="about-section" />

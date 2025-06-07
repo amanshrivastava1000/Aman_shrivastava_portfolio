@@ -1,5 +1,5 @@
 {
-  "homepage": "https://github.com/amanshrivastava1000/",
+  "homepage": ".",
   "name": "my-portfolio",
   "version": "0.1.0",
   "private": true,
@@ -15,6 +15,7 @@
     "@testing-library/user-event": "^13.5.0",
     "aos": "^2.3.4",
     "bootstrap": "^5.2.3",
+    "caniuse-lite": "^1.0.30001718",
     "gh-pages": "^6.3.0",
     "install": "^0.13.0",
     "lottie-react": "^2.4.1",

@@ -60,7 +60,7 @@ export default function DrawerExample({ handleClickScroll, handleResume,activeTa
                 variant="solid"
                 onClick={() =>
                   window.open(
-                    "https://drive.google.com/file/d/1laXdjw9Qyg-jQRMjw8sVn6J1FBRwSOtj/view?usp=sharing"
+                    "https://drive.google.com/file/d/1aBlb_3Xc2cOJ1q9KFgGdVJxIteTrYQhY/view"
                   )
                 }
               >
